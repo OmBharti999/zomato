@@ -1,267 +1,279 @@
-@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Mingzat', sans-serif;
-    /* background-color: black; */
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Mingzat", sans-serif;
+  /* background-color: black; */
 }
 
 header {
-    width: 100%;
-    height: 80vh;
-    overflow: hidden;
-    position: relative;
-    object-fit: cover;
-    margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+  margin-bottom: 2rem;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-}
 .last-image {
-    padding-left: 10px;
-    width: 10vw;
-    height: 4vh;
+  padding-left: 10px;
+  width: 10vw;
+  height: 4vh;
 }
 
 .header-image {
-    width: 100%;
-    position: absolute;
-    top: -20vh;
-    z-index: -1;
-    /* height: 80%; */
+  width: 100%;
+  position: absolute;
+
+  top: -20vh;
+  z-index: -1;
+  /* height: 800px; */
 }
 
 .header-image img {
-    width: 100%;
+  width: 100%;
+  height: 100vh;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: aliceblue;
-    font-size: 1rem;
-    margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1rem;
+  margin: 0 40px;
 }
 
 .nv-bar {
-    list-style: none;
-    font-weight: lighter;
-    display: flex;
-    gap: 25px;
+  list-style: none;
+  font-weight: lighter;
+  display: flex;
+  gap: 25px;
 }
 
 .head {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .logo {
-    margin-top: 0.5%;
-    width: 30vw;
+  margin-top: 0.5%;
+  width: 30vw;
 }
 
 .head h3 {
-    font-size: 2.1rem;
-    color: beige;
-    font-weight: 400;
+  font-size: 2.1rem;
+  color: beige;
+  font-weight: 400;
 }
 
 .search {
-    display: flex;
-    width: 57%;
-    align-items: center;
-    border-radius: 8px;
-    background: white;
-    padding: 5px 5px;
+  display: flex;
+  width: 57%;
+  align-items: center;
+  border-radius: 8px;
+  background: white;
+  padding: 5px 5px;
 }
 
 .search .search-item {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .search .search-item p {
-    color: gray;
-    border-right: 2px solid gray;
-    font-size: 15px;
-    padding-right: 10px;
-    padding-left: 8px;
+  color: gray;
+  border-right: 2px solid gray;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-left: 8px;
 }
 
 .search .search-item input {
-    border: none;
-    outline: none;
-    width: 300%;
-    padding-left: 20px;
-    font-size: 14px;
-    margin-left: 5px;
+  border: none;
+  outline: none;
+  width: 300%;
+  padding-left: 20px;
+  font-size: 14px;
+  margin-left: 5px;
 }
 
 .search .search-item:first-child {
-    color: crimson;
-    width: 20%;
+  color: crimson;
+  width: 20%;
 }
 
 .search .search-item:last-child {
-    color: rgb(61, 55, 55);
-    width: 80%;
+  color: rgb(61, 55, 55);
+  width: 80%;
 }
-
 
 /* section 1 starts */
 .section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4rem;
-    flex-wrap: wrap;
-    padding-top: 40px;
-    padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .para {
-    text-align: end;
+  text-align: end;
 }
 
 .section1 .section1-item {
-    padding: 10px;
-    position: relative;
-    width: 15rem;
-    height: 12rem;
-    /* margin: 3px 8px; */
-    overflow: hidden;
-        
+  padding: 10px;
+  position: relative;
+  width: 15rem;
+  height: 12rem;
+  /* margin: 3px 8px; */
+  overflow: hidden;
 }
 
 .section1 .section1-item img {
-    width: 100%;
-    border: 1px solid rgb(228, 228, 228);
-    border-radius: 10px;
-    z-index: -1;
-    height: 100%;
-
+  width: 100%;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  z-index: -1;
+  height: 100%;
 }
-
 
 /* heading   */
-.second-section-heading , .second-para {
-    margin-top: 15px;
-    padding-left: 20px;
-    
+.second-section-heading,
+.second-para {
+  margin-top: 15px;
+  padding-left: 20px;
 }
-
 
 /* section 2 */
 
 .section2-container {
-    padding-top: 60px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-bottom: 5rem;
-    flex-wrap: wrap;
+  padding-top: 60px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
 }
-
 
 .second-section-div {
-    display: flex;
-    align-items: center;
-    width: 250px;
-    height: 200px;
-    margin: 10px;
-    padding: 5px;
-    flex-flow: row wrap;
-    overflow: hidden;
-    position: relative;    
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  padding: 5px;
+  flex-flow: row wrap;
+  overflow: hidden;
+  position: relative;
 }
-.section2-container .second-section-div img{
-    
-    width: 100%;
-    border: 1px solid rgb(228, 228, 228);
-    border-radius: 15px;
-    z-index: -1;
+.section2-container .second-section-div img {
+  width: 100%;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 15px;
+  z-index: -1;
 }
 
 .third-section {
-    margin: 50px;
-    padding: 50px;
-    display: flex;
-
+  margin: 50px;
+  padding: 50px;
+  display: flex;
 }
 .third-section div {
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .flexxi {
-    display: flex;
-    font-weight: 400;
-    font-size: large;
-    
+  display: flex;
+  font-weight: 400;
+  font-size: large;
 }
 
 .down {
-    padding-left: 20px;
-    border-radius: 5px;
-    height: 35px;
-    outline: none;
+  padding-left: 20px;
+  border-radius: 5px;
+  height: 35px;
+  outline: none;
 }
 
 .last {
-    display: flex;
-    justify-content: space-between;
-    padding: 80px;
-    background-color: rgb(161, 127, 127);
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: rgb(161, 127, 127);
+  align-items: flex-start;
 }
 
 button {
-    background-color: rgb(196, 64, 64);
-    padding: 10px;
-    border-radius: 6px;
-    color: white;
+  background-color: rgb(196, 64, 64);
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
 }
 
 .last-para {
-    text-align: end;
+  text-align: end;
 }
 
 .select-container {
-    display: grid;
-    min-width: 15ch;
-     max-width: 30ch;
-    appearance: none;
-    font-size: large;
-    padding: 5px;
+  display: grid;
+  min-width: 15ch;
+  max-width: 30ch;
+  appearance: none;
+  font-size: large;
+  padding: 5px;
 }
 
 .div78 p {
-    height: 9px;
-    color: rgb(46, 45, 44);
+  height: 9px;
+  color: rgb(46, 45, 44);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-    color: rgb(61, 57, 57);
+  color: rgb(61, 57, 57);
 }
 
-@media screen and (width: 700px) {
+@media screen and (max-width: 750px) {
+  header{
+    overflow:hidden;
+    height: 100vh;
+  }
+  .header-image {
+    height: 1200px;
+  }
   .header-image img {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-      height: 800px
+    /* The width is 100%, when the viewport is 800px or smaller */
+    height: 800px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header{
+    overflow:hidden;
+    height: 100vh;
+  }
+  .header-image {
+    height: 800px;
+  }
+  .header-image img {
+    /* The width is 100%, when the viewport is 800px or smaller */
+    height: 800px;
   }
 }
