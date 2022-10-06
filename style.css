@@ -43,11 +43,21 @@ header {
 
 .nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-content: space-between;
   align-items: center;
   color: aliceblue;
   font-size: 1rem;
   margin: 0 40px;
+  gap: 55vw
+}
+.nav div{
+  flex : 1.5;
+  
+}
+.nav ul{
+  flex:3
 }
 
 .nv-bar {
@@ -253,6 +263,9 @@ a:visited {
 }
 
 @media screen and (max-width: 750px) {
+  .nav{
+    gap: 30vw
+  }
   header{
     overflow:hidden;
     height: 100vh;
@@ -266,6 +279,9 @@ a:visited {
   }
 }
 @media screen and (max-width: 500px) {
+  .nav{
+    gap: 15vw
+  }
   header{
     overflow:hidden;
     height: 100vh;
