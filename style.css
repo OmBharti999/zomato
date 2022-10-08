@@ -277,6 +277,13 @@ a:visited {
     /* The width is 100%, when the viewport is 800px or smaller */
     height: 800px;
   }
+  .third-section {
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction:column
+  }
+ 
 }
 @media screen and (max-width: 500px) {
   .nav{
@@ -292,5 +299,11 @@ a:visited {
   .header-image img {
     /* The width is 100%, when the viewport is 800px or smaller */
     height: 800px;
+  }
+  .third-section {
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction:column
   }
 }
