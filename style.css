@@ -261,6 +261,14 @@ a {
 a:visited {
   color: rgb(61, 57, 57);
 }
+@media screen and (max-width:1000px){
+  .third-section {
+    margin: 3vh;
+    padding: 5vw;
+    display: flex;
+    flex-direction:column
+  }
+}
 @media screen and (max-width:850px){
   .third-section {
     margin: 30px;
